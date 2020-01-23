@@ -1,0 +1,32 @@
+.filesList img{
+	width:32px;
+}
+.filesList p{
+	display: flex;
+	align-items: center;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 15px;
+	margin: 3px 0 3px 0;
+}
+.filesList p:hover{
+	background-color: #c1dfff;
+}
+.filesList p span{
+	padding-left: 5px;
+}
+.controlPanel{
+	display: flex;
+	align-items: stretch;
+}
+.controlPanel input[type=text]{
+	font-family: 'Roboto Mono', monospace;
+	font-size: 15px;
+	width: 100%;
+	margin: 5px;
+}
+.controlPanel img{
+	width: 32px;
+	height:100%;
+	margin: 5px;
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
